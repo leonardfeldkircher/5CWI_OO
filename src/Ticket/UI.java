@@ -1,6 +1,18 @@
-public class UI {
+package Ticket;
 
-    public void buttonPressed();
-    
+public class UI {
+    Controller controller;
+
+
+    public UI (Controller controller)
+    {
+        this.controller = controller;
+    }
+
+    public void ButtonPressed()
+    {
+        System.out.println("Pressed the Button:     ");
+        controller.CreateTicket();
+    }
 
 }

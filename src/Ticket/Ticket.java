@@ -1,4 +1,4 @@
-package Ticketautomat;
+package Ticket;
 
 import java.util.Random;
 
