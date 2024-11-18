@@ -4,14 +4,13 @@ import java.util.Random;
 
 public class Camera {
     private int pixels;
-    private int weight;
+
     private SD sd;
     private Random random = new Random();
 
     public Camera(int pixels, int weight, SD sd)
     {
         this.pixels = pixels;
-        this.weight = weight;
         this.sd = sd;
     }
 
