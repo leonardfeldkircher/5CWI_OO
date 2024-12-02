@@ -8,6 +8,6 @@ public class Main {
         UI ui = new UI(controller);
         
         ui.ButtonPressed();
-        System.out.println(controller.getTickets().getLast());
+       // System.out.println(controller.getTickets().getLast());
     }
 }
