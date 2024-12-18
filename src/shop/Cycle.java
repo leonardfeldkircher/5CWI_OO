@@ -1,15 +1,15 @@
-package at.leo.shop;
+package shop;
 
-import at.leo.shop.Product.Product;
-import at.leo.shop.Product.Products;
+public class Cycle implements Product{
 
-public class Car implements Products {
     private String color;
     private String name;
+    private int price;
 
-    public Car(String color, String name) {
+    public Cycle(String color, String name, int price) {
         this.color = color;
         this.name = name;
+        this.price = price;
     }
 
     public String getName() {
@@ -26,6 +26,10 @@ public class Car implements Products {
 
     public void setColor(String color) {
         this.color = color;
-    }
+    } 
 
+    public int getPrice() {
+        return price;
+    }
+    
 }
