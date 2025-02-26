@@ -1,3 +1,5 @@
+package algo.bubble;
+
 public class Bubble {
     public static void bubble(int[] arr) {
         int n = arr.length;
